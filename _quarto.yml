@@ -7,7 +7,7 @@ execute:
 book:
   title: My Demo Book
   subtitle: 'Learning to make my own tutorials... or maybe writing my PhD!'
-  author: Jenny Terry
+  author: "Jenny Terry"
   doi: ''
   license: CC-BY
   description: Book Description
