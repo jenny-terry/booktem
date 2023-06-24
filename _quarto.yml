@@ -44,6 +44,7 @@ book:
   chapters:
   - index.qmd
   - instructions.qmd
+  - chapter1.qmd
   appendices:
   - webexercises.qmd  # can remove appendices
   - references.qmd
