@@ -54,5 +54,12 @@
     "title": "References",
     "section": "",
     "text": "Wickham, H., Bryan, J., & Barrett, M. (2022). Usethis: Automate\npackage and project setup. https://CRAN.R-project.org/package=usethis"
+  },
+  {
+    "objectID": "chapter1.html",
+    "href": "chapter1.html",
+    "title": "My Demo Book",
+    "section": "",
+    "text": "This is my first chapter"
   }
 ]
