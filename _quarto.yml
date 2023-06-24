@@ -1,0 +1,78 @@
+project:
+  type: book
+  output-dir: docs
+  resources: resources
+execute:
+  freeze: auto #only renders pages with changes; false changes everything
+book:
+  title: My Demo Book
+  subtitle: 'Learning to make my own tutorials... or maybe writing my PhD!'
+  author: Jenny Terry
+  doi: ''
+  license: CC-BY
+  description: Book Description
+  cover-image: images/logos/logo.png # change to own images
+  image: images/logos/logo.png
+  favicon: images/logos/logo.png
+  cookie-consent: false
+  google-analytics: ''
+  page-navigation: true
+  search: true
+  downloads:
+  - pdf
+  - epub
+  sharing:
+  - twitter
+  - facebook
+  - linkedin
+  sidebar:
+    title: ''
+    logo: ''
+    search: true
+    contents: ''
+    style: floating
+    background: light
+    foreground: dark
+    border: true
+    alignment: left
+    collapse-level: 3
+    pinned: true
+    header: ''
+    footer: ''
+  margin-header: ''
+  page-footer: CC-BY (2023) Jenny Terry
+  chapters:
+  - index.qmd
+  - instructions.qmd
+  appendices:
+  - webexercises.qmd  # can remove appendices
+  - references.qmd
+bibliography: include/references.bib
+csl: include/apa.csl
+format:
+  html:
+    theme:
+      light:
+      - flatly          # bookdown themes - bootswatch.com
+      - include/light.scss
+      dark:
+      - darkly          # flatly & darkly consistent from light to dark
+      - include/dark.scss
+    css:
+    - https://use.fontawesome.com/releases/v5.13.0/css/all.css
+    - include/booktem.css # don't touch this!
+    - include/webex.css
+    - include/glossary.css
+    - include/style.css # edit this one for your own stuff
+    df-print: kable
+    code-link: true
+    code-fold: false
+    code-line-numbers: true
+    code-overflow: wrap
+    code-copy: hover
+    highlight-style: a11y
+    mainfont: ''
+    monofont: ''
+    include-after-body:
+    - include/webex.js
+    - include/script.js
